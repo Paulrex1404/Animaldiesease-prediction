@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cattlex - Disease Prediction</title>
+    <link rel="stylesheet" href="disease.css"> <!-- Link to CSS file -->
+</head>
+<body>
+    <div class="container">
+        <h1>Disease Prediction Input Form</h1>
+        <form id="disease-prediction-form">
+            <label for="temperature">Temperature (°C):</label>
+            <input type="number" id="temperature" step="0.1" required>
+
+            <label for="respiratory-rate">Respiratory Rate (breaths/min):</label>
+            <input type="number" id="respiratory-rate" required>
+
+            <label for="heart-rate">Heart Rate (beats/min):</label>
+            <input type="number" id="heart-rate" required>
+
+            <label for="feed-intake">Feed Intake (kg/day):</label>
+            <input type="number" id="feed-intake" step="0.1" required>
+
+            <label for="water-intake">Water Intake (liters/day):</label>
+            <input type="number" id="water-intake" step="0.1" required>
+
+    
+
+            <button onclick="location.href='../result_page/res.html'">Submit</button>
+        </form>
+    </div>
+    <script src="path/to/language-translator.js"></script>
+
+    <script src="disease.js"></script> <!-- Link to JavaScript file -->
+</body>
+</html>

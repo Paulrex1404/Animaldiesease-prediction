@@ -1,0 +1,60 @@
+/* Global Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: url('disease.jpeg') no-repeat center center fixed;
+    background-size: cover; /* Ensure the background covers the entire page */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styling */
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for readability */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styling */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Form Element Styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Button Styling */
+button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #218838;
+}
